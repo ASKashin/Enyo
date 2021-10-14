@@ -1,0 +1,26 @@
+@import "colors";
+
+.main{
+    .container{
+        justify-content: space-between;
+        padding-top: 30px;
+        .logo{
+
+        }
+        nav{
+            padding-top: 5px;
+            ul{
+                justify-content: space-between;
+                gap: 25px;
+                li{
+                    display: inline-block;
+                    a{
+                        display: block;
+                        font-weight: bold;
+
+                    }
+                }
+            }
+        }
+    }
+}
