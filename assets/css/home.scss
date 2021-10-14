@@ -2,10 +2,11 @@
 
 .home {
     .container {
-        margin-top: 170px;
+        margin-top: 160px;
         text-align: center;
         h1 {
             text-transform: uppercase;
+            letter-spacing: 10px;
         }
         p {
             color: #bbd8ff;
@@ -26,6 +27,7 @@
             padding: 0 40px;
             i{
                 padding-right: 18px;
+                color: #7f97be;
             }
         }
     }
