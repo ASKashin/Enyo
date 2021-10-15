@@ -38,11 +38,17 @@ h3 {
     font-size: 72px;
 }
 
-// h4 {
-//     font-weight: 300;
-//     font-size: 0.875rem;
-// }
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: $blue;
+}
+
+
+
+
 
 @import "header";
 @import "home";
 @import "download";
+@import "information";

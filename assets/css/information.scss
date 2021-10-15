@@ -1,0 +1,21 @@
+@import "colors";
+
+.information{
+    .container{
+        ul{
+            flex-wrap: wrap;
+            gap: 30px;
+            li{
+                display: inline-block;
+                width: 360px;
+                padding-left: 95px;
+                h4{
+
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}
