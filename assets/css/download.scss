@@ -1,22 +1,49 @@
 @import "colors";
 
 .download {
+    padding-bottom: 140px;
     .container {
-        position: relative;
-        margin-top: 720px;
+        margin-top: 700px;
         .content {
+            width: 710px;
             h3 {
             }
             p {
+                margin-top: 40px;
+                font-size: 16px;
+                line-height: 32px;
+                color: $gray;
             }
             ul {
+                margin-top: 35px;
                 li {
+                    display: inline-block;
+                    color: $blue2;
+                    font-size: 16px;
+                    line-height: 32px;
+                    i{
+                        padding-right: 20px;
+                        color: #ff3974;
+                    }
                 }
             }
+            a{
+                margin-top: 50px;
+                display: inline-block;
+                line-height: 56px;
+                background-color: $blue;
+                font-weight: bold;
+                border-radius: 27px;
+                padding: 0 64px;
+            }
         }
-        .image{
-            position: absolute;
-            left: 50px;
+        .image{ position: relative;
+            img{
+               position: absolute;
+            left: -257px;  
+            }
+            
+           
 
         }
     }
