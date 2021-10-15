@@ -1,0 +1,70 @@
+@import "colors";
+
+.plans {
+    background: $white2;
+    padding-top: 140px;
+    .container {
+        text-align: center;
+        h3 {
+            padding-bottom: 35px;
+        }
+        .desc {
+            color: $gray;
+            font-size: 16px;
+            line-height: 32px;
+            margin-top: 40px;
+        }
+        ul {
+            margin-top: 70px;
+            justify-content: space-between;
+            gap: 30px;
+            li {
+                display: inline-block;
+                background-color: $white;
+                width: 360px;
+                padding: 30px 0;
+                h5 {
+                    font-size: 18px;
+                    color: $gray;
+                    text-transform: uppercase;
+                }
+                .price {
+                    margin-top: 60px;
+                    color: $blue;
+                    font-size: 40px;
+                    font-weight: bold;
+                    .rate {
+                        font-size: 72px;
+                    }
+                    .mon {
+                        font-size: 22px;
+                        font-weight: 400;
+                        color: $gray;
+                    }
+                }
+                .text {
+                    margin-top: 60px;
+                    font-size: 18px;
+                    color: $gray;
+                }
+            }
+        }
+        h4 {
+            background: url("../../assets/images/user.png") center top no-repeat;
+            margin-top: 70px;
+            padding-top: 80px;
+            text-transform: uppercase;
+        }
+        .txt {
+            width: 530px;
+            margin: 0 auto;
+            font-size: 16px;
+            color: $gray;
+            margin-top: 25px;
+        }
+        div {
+            p {
+            }
+        }
+    }
+}

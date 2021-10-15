@@ -1,19 +1,43 @@
 @import "colors";
 
-.information{
-    .container{
-        ul{
+.information {
+    background: $white2;
+    padding-top: 140px;
+    padding-bottom: 90px;
+    .container {
+        ul {
             flex-wrap: wrap;
             gap: 30px;
-            li{
+            li {
                 display: inline-block;
                 width: 360px;
                 padding-left: 95px;
-                h4{
-
+                &.pic1 {
+                    background: url("../../assets/images/pic1.png") 8px 5px no-repeat;
                 }
-                p{
-
+                &.pic2 {
+                    background: url("../../assets/images/pic2.png") 8px 5px no-repeat;
+                }
+                &.pic3 {
+                    background: url("../../assets/images/pic3.png") 8px 5px no-repeat;
+                }
+                &.pic4 {
+                    background: url("../../assets/images/pic4.png") 17px 5px no-repeat;
+                }
+                &.pic5 {
+                    background: url("../../assets/images/pic5.png") 8px 5px no-repeat;
+                }
+                &.pic6 {
+                    background: url("../../assets/images/pic6.png") 8px 5px no-repeat;
+                }
+                h4 {
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                    margin-bottom: 40px;
                 }
             }
         }
